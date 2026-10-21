@@ -47,3 +47,22 @@ footer {
     padding: 10px;
     border-top: 1px solid #555555;
 }
+
+/* Estilo da seção de contato */
+#contato {
+    text-align: center;
+    padding: 30px;
+    background-color: #1E1E1E;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+#contato a {
+    color: #00d87b;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#contato a:hover {
+    text-decoration: underline;
+}
