@@ -1,0 +1,140 @@
+
+/* CONFIGURAÇÕES GERAIS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #121212;
+    color: #FFFFFF;
+    padding: 20px;
+}
+
+/* CABEÇALHO */
+header {
+    background-color: #1B1B1B;
+    text-align: center;
+    padding: 30px;
+}
+
+h1 {
+    color: #4CAF50;
+    margin-bottom: 10px;
+}
+
+header p {
+    color: #FFFFFF;
+}
+
+/* TÍTULOS */
+h2 {
+    color: #4CAF50;
+    margin-bottom: 15px;
+}
+
+h3 {
+    color: #81C784;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+/* SEÇÕES */
+section {
+    padding: 25px;
+    margin: 15px 0;
+    background-color: #1B1B1B;
+}
+
+/* TEXTOS E LISTAS */
+p {
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+ul, ol {
+    margin-left: 30px;
+    line-height: 1.8;
+}
+
+dt {
+    color: #81C784;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+dd {
+    margin-left: 20px;
+}
+
+/* IMAGENS */
+img {
+    margin: 10px 0;
+    border: 2px solid #4CAF50;
+}
+
+/* TABELAS */
+table {
+    border-collapse: collapse;
+    margin-top: 15px;
+    background-color: #222222;
+}
+
+th {
+    background-color: #2E7D32;
+    color: white;
+    padding: 10px;
+}
+
+td {
+    padding: 10px;
+    text-align: center;
+}
+
+hr {
+    border: 1px solid #4CAF50;
+    margin: 15px 0;
+}
+
+/* RODAPÉ */
+footer {
+    background-color: #1B1B1B;
+    text-align: center;
+    padding: 20px;
+    color: #81C784;
+}
+
+
+/* OBSERVAÇÕES E DÚVIDAS */
+.campo {
+    margin: 20px 0;
+}
+
+.campo label {
+    color: #4CAF50;
+    font-size: 16px;
+}
+
+.campo textarea {
+    width: 80%;
+    height: 150px;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #222222;
+    color: white;
+    border: 1px solid #4CAF50;
+    border-radius: 5px;
+    font-size: 14px;
+    resize: vertical;
+}
+
+.campo textarea:focus {
+    outline: none;
+    border: 2px solid #81C784;
+}
+
+.campo textarea::placeholder {
+    color: #AAAAAA;
+}
